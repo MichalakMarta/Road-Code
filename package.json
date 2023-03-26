@@ -1,0 +1,24 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./src/tests --recursive --no-timeouts --require ./dotenv.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.34.0"
+  },
+  "dependencies": {
+    "chromedriver": "^110.0.0",
+    "dotenv": "^16.0.3",
+    "dotenv-expand": "^10.0.0",
+    "geckodriver": "^3.2.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.8.1"
+  },
+  "description": ""
+}
