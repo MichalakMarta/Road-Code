@@ -1,1 +1,1 @@
-# Selenium WebDriver & Mocha & Chai Template
+# Automated tests for sign up and sign in at roadcode.cc
