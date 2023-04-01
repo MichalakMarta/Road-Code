@@ -5,5 +5,7 @@ const options = new Options();
 options.excludeSwitches("enable-logging");
 
 export function createDriver(browserName) {
-    return new Builder().forBrowser(browserName).withCapabilities(options).build();
+    const driver = new Builder().forBrowser(browserName).withCapabilities(options).build();
+    driver.manage().window().maximize();
+    return driver;
 }
