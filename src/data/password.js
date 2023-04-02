@@ -1,8 +1,8 @@
 // The array of objects with input data
 const errorMsgPassword = "Password should be at least 8 characters long and contain at least one uppercase and one lowercase letter, one number and one special character";
 
-export const testsPassword = [{
-    title: 'Value is empty',
+export const passwordParams = [{
+    title: 'Field is empty',
     passwordValue: '',
     passwordMsg: errorMsgPassword
 }, {
@@ -34,7 +34,7 @@ export const testsPassword = [{
     passwordValue: 'eq)9cxh!haR?$!9OfN4wXPDvbXweEze!&ByYNMjrGncC(7p31^w',
     passwordMsg: 'Field must not contain more than 50 characters(s)',
 }, {
-    title: 'Password with max length characters allowed (50)',
+    title: 'Password with max allowed characters length (50)',
     passwordValue: 'eq)9cxh!haR?$!9OfN4wXPDvbXweEze!&ByYNMjrGncC(7p31^',
     passwordMsg: ''
 }
