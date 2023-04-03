@@ -1,6 +1,4 @@
 // The array of objects with input data
-
-
 export const confirmPasswordParams = [{
     title: 'Field is empty',
     confirmPasswordValue: '',
