@@ -3,7 +3,7 @@ The repository contains form field validation automated tests at https://roadcod
 Wrote with:  **JavaScript**, **Selenium WebDriver**, **Mocha** & **Chai**.
 <br /><br />
  
-To run the tests, please enter in terminal:
+To run the tests, please add **.env** based on **.env.example** and run in terminal:
 ```
 npm install
 npm test
