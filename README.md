@@ -16,7 +16,7 @@ npm test
 Test cases
 
 | Field       | Title | Value           | Expected result  |
-| ------------- |:-------------:| -----:|-----:|
+| ------------- |-------------| -----|-----|
 | "First name"      | Field is empty | null | Error message (Field is required)|
 | "First name"   |Field is not empty | 1      |   Field was filled in correctly (no additional validation) |
 | "Email" | null      | | Error message (Field is required)   |
