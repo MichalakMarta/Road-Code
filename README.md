@@ -19,7 +19,7 @@ Test cases
 | ------------- |-------------| -----|-----|
 | "First name"      | Field is empty | null | Error message (Field is required)|
 | "First name"   |Field is not empty | 1      |   Field was filled in correctly (no additional validation) |
-| "Email" | Field is empty | null      | | Error message (Field is required)   |
+| "Email" | Field is empty | null      |Error message (Field is required) | Error message (Field is required)   |
 | "Email" |   Email has valid format | mail@test.pl  |  Field was filled in correctly   |
 | "Email" |    Email without @ |mail.test.pl   |  Error message (Invalid email address)   |
 | "Email" |    Email without domain |mail@   | Error message (Invalid email address)  |
