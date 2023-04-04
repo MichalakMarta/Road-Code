@@ -13,7 +13,7 @@ npm test
 ![Screenshot of testing the user registration form](https://github.com/MichalakMarta/Road-Code/blob/main/SignUpScreenshot.png?raw=true)
  <br />
 
-Test cases
+Test cases:
 
 | Field       | Title | Value           | Expected result  |
 | ------------- |-------------| -----|-----|
@@ -47,7 +47,7 @@ Error message* is "Password should be at least 8 characters long and contain at 
  <br />
  <br />
  
-Tests results
+Tests results:
 <br />
 <br />
 ![Tests results](https://github.com/MichalakMarta/Road-Code/blob/main/Tests%20results.png)
