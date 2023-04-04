@@ -44,6 +44,12 @@ Test cases
 
  <br />
 Error message* is "Password should be at least 8 characters long and contain at least one uppercase and one lowercase letter, one number and one special character".
-
-
+ <br />
+ <br />
+ 
+Tests results
+<br />
+<br />
+![Tests results](https://github.com/MichalakMarta/Road-Code/blob/main/Tests%20results.png)
+ 
 
